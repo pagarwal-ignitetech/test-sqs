@@ -4,6 +4,7 @@ import com.restoratio.monaco.ruletest.squid.compliant.AbstractS1161Rule;
 
 public class S1161Rule extends AbstractS1161Rule {
 
+	@Override
 	protected void someMethod(String aParam) {
 		// non compliance since it is not declaring annotation @Override.
 	}
